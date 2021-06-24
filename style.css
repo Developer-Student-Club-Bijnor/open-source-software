@@ -14,6 +14,9 @@ body{
   }
 .navbar .navbar-text{
     color:aqua;
+    font-size:smaller;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
 }
   
   .navbar ul {
@@ -55,4 +58,277 @@ body{
       background-color:rgb(247, 243, 239) ;
   }
 
+  .container img{
+    padding: 50px;
+  justify-content: center;
   
+  }
+
+  .container text{
+    display: flex;
+    
+  justify-content: center;
+  
+  }
+
+  .socialmed {
+    position: fixed;
+    width: 10px;
+    margin-top: 100px;
+    
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
+    z-index: 10000;
+  }
+
+  .socialmed li {
+    height: 60px;
+    position: relative;
+    
+  }
+
+  .socialmed li a {
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 20%;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    transition: all 1s linear;
+  }
+
+  .socialmed li:nth-child(1) a {
+    background: #4267B2;
+  }
+
+  .socialmed li:nth-child(2) a {
+    background: #1DA1F2;
+  }
+
+  .socialmed li:nth-child(3) a {
+    background: #E1306C;
+  }
+
+  .socialmed li:nth-child(4) a {
+    background: #2867B2;
+  }
+
+  .socialmed li:nth-child(5) a {
+    background: #333;
+  }
+
+  .socialmed li:nth-child(6) a {
+    background: #ff0000;
+  }
+
+  .socialmed li a i {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+  }
+
+  .socialmed ul li a span {
+    display: none;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+  }
+
+  .socialmed li:hover {
+    z-index: 10000;
+    width: 170px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    transition: all 1s linear;
+  }
+
+  .socialmed ul li:hover a span {
+    padding-left: 30%;
+    display: block;
+  }
+  @media screen and (max-width: 768px) {
+    .socialmed {
+      display: none;
+    }
+
+  }
+
+  
+ 
+   .footer-distributed{
+    border-top: 3px solid #DC3545;
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    
+    padding: 55px 50px;
+    margin-top: 80px;
+   }
+    
+   .footer-distributed .footer-left,
+   .footer-distributed .footer-center,
+   .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+   }
+    
+   .footer-distributed .footer-left{
+    width: 40%;
+   }
+    
+   .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+   }
+    
+   .footer-distributed h3 span{
+    color:  #5383d3;
+   }
+    
+    
+   .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+   }
+    
+   .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+   }
+    
+   .footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+    
+   .footer-distributed .footer-center{
+    width: 35%;
+   }
+
+   .footer-distributed .footer-center .list-unstyled{
+    cursor: pointer;
+    
+        
+    font-size: 15px;
+    color: #f5ecec;
+    
+   }
+    
+   .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+   }
+    
+   .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+   }
+    
+   .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+   }
+    
+   .footer-distributed .footer-center p span{
+    display:block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height:2;
+   }
+    
+   .footer-distributed .footer-center p a{
+    color:  #fafbfd;
+    text-decoration: none;
+   }
+    
+   .footer-distributed .footer-right{
+    width: 20%;
+   }
+    
+   .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+   .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+    
+   .footer-distributed .footer-icons{
+    margin-top: 25px;
+   }
+    
+   .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+    
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    
+    margin-right: 3px;
+    margin-bottom: 5px;
+   }
+    
+
+   .footer-distributed .text-right{
+     color:ivory;
+     text-align: center;
+   }
+    
+   @media (max-width: 880px) {
+    
+    .footer-distributed{
+    font: bold 14px sans-serif;
+    
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+    margin-left: 0;
+    }
+    
+    
+   }
